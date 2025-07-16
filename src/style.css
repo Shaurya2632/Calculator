@@ -1,0 +1,40 @@
+#anchorpane{
+  -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #0b0b0b 0%, #0b0b0b 75%, #2d2d2d 100%);
+  -fx-background-radius: 8px;
+}
+
+#display{
+  -fx-background-color: #323434;
+  -fx-background-radius: 8px;
+  -fx-border-radius: 8px;
+  -fx-text-fill: white;
+}
+
+#exit{
+  -fx-background-color: red;
+}
+
+#exit:pressed{
+  -fx-background-color: #ed3131;
+}
+
+.button{
+  -fx-background-color: #434444;
+  -fx-border-radius: 30px;
+  -fx-background-radius: 30px;
+  -fx-text-fill: white;
+}
+
+.button:pressed{
+  -fx-background-color: #686868;
+  -fx-border-radius: 30px;
+  -fx-background-radius: 30px;
+  -fx-text-fill: white;
+}
+
+.button:hover{
+  -fx-background-color: #686868;
+  -fx-border-radius: 30px;
+  -fx-background-radius: 30px;
+  -fx-text-fill: white;
+}
